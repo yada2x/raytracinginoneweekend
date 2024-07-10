@@ -1,9 +1,6 @@
 #ifndef INTERVAL_H
 #define INTERVAL_H
 
-#include "rtweekend.h"
-const double infinity = std::numeric_limits<double>::infinity();
-
 class interval {
   public:
     double min, max;
